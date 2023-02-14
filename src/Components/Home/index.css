@@ -1,0 +1,36 @@
+.home-container {
+  /* background-color: rgb(8, 8, 8); */
+  background-image: linear-gradient(to right ,rgb(1, 1, 15),rgb(1, 1, 4));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: center;
+
+  color: white;
+  padding: 2rem;
+  font-family: cursive;
+  justify-content: space-around;
+}
+.name {
+  color: rgb(229, 237, 118);
+  font-style: italic;
+}
+.profile-image {
+  background-color: rgb(184, 11, 11);
+}
+.skills-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.button{
+  background-color: rgb(0, 255, 94);
+  border-radius: 10px;
+  font-weight: bold;
+}

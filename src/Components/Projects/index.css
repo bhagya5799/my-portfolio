@@ -1,0 +1,63 @@
+.projects-container {
+  background-image: linear-gradient(
+    to right,
+    rgb(9, 9, 9),
+    rgb(1, 0, 2),
+    rgb(124, 116, 164)
+  );
+
+  color: white;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem;
+  flex-wrap: wrap;
+  font-family: serif;
+}
+i {
+  color: white;
+}
+.card {
+  background-color: rgb(213, 213, 225);
+  margin: 2rem;
+  height: 250px;
+  width: 300px;
+  box-shadow: 10px 8px 10px rgb(65, 64, 64);
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+
+}
+.Details {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.button-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+   
+}
+a{
+    text-decoration: none;
+}
+.dark{
+    /* border-width: 0;
+    outline: none;
+    border-color: transparent; */
+
+}

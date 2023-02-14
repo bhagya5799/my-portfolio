@@ -1,0 +1,36 @@
+
+body{
+    height: 100vh;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ 
+    height: 100%;
+
+}
+.nav{
+height: rem;
+width: 100%;
+background-color: black;
+}
+.contact-me{
+background-image: linear-gradient(to right,rgb(242, 228, 228),rgb(110, 208, 110));
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.title{
+text-decoration: underline;
+margin-bottom: 20px;
+color: blue;
+}
+span{
+     text-shadow: 2px 2px 5px red;
+}
+.footer{
+    width: 100%;
+}

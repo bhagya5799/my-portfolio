@@ -1,0 +1,73 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 2rem;
+    width: 100%;
+    padding: 0;
+     box-shadow: rgba(239, 234, 234, 0.19) 0px 10px 20px, rgba(255, 244, 244, 0.23) 0px 6px 6px;
+  
+}
+.header{
+    background-color: black;
+    width: 100%;
+}
+.about-me{
+    text-shadow: 2px 2px #3089b5;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.name{
+  text-shadow: 0 0 3px #c32020, 0 0 5px #141415;
+}
+span{
+    font-weight: bold;
+    color: rgb(15, 39, 161);
+}
+.education{
+margin-top: 20px;
+}
+.title{
+    margin-top: 20px;
+    
+}
+
+.skills{ 
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(239, 234, 234, 0.19) 0px 10px 20px, rgba(255, 244, 244, 0.23) 0px 6px 6px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #edcfcf;
+}.exp{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    background-color: #c2dbe7;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+     box-shadow: rgba(239, 234, 234, 0.19) 0px 10px 20px, rgba(188, 46, 46, 0.23) 0px 6px 6px;
+}
+.footer{
+    width: 100%;
+}
