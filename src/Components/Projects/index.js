@@ -121,6 +121,19 @@ const Projects = () => {
                             </Button>{' '}
                         </div>
                     </div>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg" height="100%" width="100%" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/calculator-react"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://mellow-gecko-c6c90a.netlify.app/"><i>Calculator<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
+                    </div>
                 </div>
 
             </div>
