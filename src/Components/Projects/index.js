@@ -18,11 +18,11 @@ const Projects = () => {
                 <div className='d-flex flex-wrap justify-content-between'>
                 <div className='card'>
                     <div className='Details'>
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" height="100%" width="100%" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" height="100%" width="100%"  alt="banner" />
                     </div>
                     <div className='button-cart'>
                         <Button variant="dark">
-                            <a href="https://github.com/bhagya5799/food-resturant-project"><i> github<AiFillGithub /></i></a>
+                            <a href="https://github.com/bhagya5799/food-resturant-project" alt="image"><i> github<AiFillGithub /></i></a>
                         </Button>{' '}
                         <Button variant="dark">
                             <a href="https://chimerical-alfajores-d2e4b9.netlify.app/"><i>FoodMuch site<FaArrowCircleRight /></i></a>
@@ -31,7 +31,7 @@ const Projects = () => {
                 </div>
                 <div className='card'>
                     <div className='Details'>
-                            <img src="https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b" height="100%" width="100%" />
+                            <img src="https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b" height="100%" width="100%"  alt="gitImage"/>
                     </div>
                     <div className='button-cart'>
                         <Button variant="dark">
@@ -44,7 +44,7 @@ const Projects = () => {
                 </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://www.oflox.com/blog/wp-content/uploads/2020/09/WhatsApp-Chat-Design-Template.png" height="100%" width="100%" />
+                            <img src="https://www.oflox.com/blog/wp-content/uploads/2020/09/WhatsApp-Chat-Design-Template.png" height="100%" width="100%" alt="chatImage" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -131,6 +131,32 @@ const Projects = () => {
                             </Button>{' '}
                             <Button variant="dark">
                                 <a href="https://mellow-gecko-c6c90a.netlify.app/"><i>Calculator<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678942916/Screenshot_44_vwfxev.png" height="100%" width="100%" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/wiztric-responsive-website"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://poetic-kitten-3099e5.netlify.app/"><i>static website<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678943418/Screenshot_45_wmbutq.png" height="100%" width="100%" alt="login-img" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/finlock-frontend--assignment"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="hhttps://hilarious-khapse-bbd1de.netlify.app/login"><i> signup Form<FaArrowCircleRight /></i></a>
                             </Button>{' '}
                         </div>
                     </div>
