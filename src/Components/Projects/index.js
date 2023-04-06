@@ -57,7 +57,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qdgmb80lrLYFaldRbLeSJfFAr8ONGoLMJsnEFju993Ojd7hDG3e8VZn6BTplrGhCU28&usqp=CAU" height="100%" width="100%" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qdgmb80lrLYFaldRbLeSJfFAr8ONGoLMJsnEFju993Ojd7hDG3e8VZn6BTplrGhCU28&usqp=CAU" height="100%" width="100%"  alt="covid"/>
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -71,7 +71,7 @@ const Projects = () => {
 
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://img.freepik.com/premium-vector/cartoon-math-chalkboard-background_23-2148154590.jpg?w=2000" height="100%" width="100%" />
+                            <img src="https://img.freepik.com/premium-vector/cartoon-math-chalkboard-background_23-2148154590.jpg?w=2000" height="100%" width="100%" alt="Mern" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -84,7 +84,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://1.bp.blogspot.com/-i78iKr_P9Pk/X9ohjXyc5eI/AAAAAAAAA_4/8UauxZaOgUshGK7MXwW1gZqts7Zrf_AewCLcBGAsYHQ/s1280/Todo%2BList%2BApp%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp" height="100%" width="100%" />
+                            <img src="https://1.bp.blogspot.com/-i78iKr_P9Pk/X9ohjXyc5eI/AAAAAAAAA_4/8UauxZaOgUshGK7MXwW1gZqts7Zrf_AewCLcBGAsYHQ/s1280/Todo%2BList%2BApp%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp" height="100%" width="100%" alt="todo" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -97,7 +97,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://play-lh.googleusercontent.com/B_wM_AK9epBhYhAJNnXhsGsZVLnsa_1AD_r_4QWaqH7Nt22TRe7RQGGw7MVily2vzA" height="100%" width="100%" />
+                            <img src="https://play-lh.googleusercontent.com/B_wM_AK9epBhYhAJNnXhsGsZVLnsa_1AD_r_4QWaqH7Nt22TRe7RQGGw7MVily2vzA" height="100%" width="100%" alt="jobby" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -110,7 +110,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" height="100%" width="100%" />
+                            <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" height="100%" width="100%" alt="wiki" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -123,7 +123,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg" height="100%" width="100%" />
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg" height="100%" width="100%" alt="calcualtor" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -136,7 +136,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678942916/Screenshot_44_vwfxev.png" height="100%" width="100%" />
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678942916/Screenshot_44_vwfxev.png" height="100%" width="100%" alt="static" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -149,7 +149,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678943418/Screenshot_45_wmbutq.png" height="100%" width="100%" alt="login-img" />
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678943418/Screenshot_45_wmbutq.png" height="100%" width="100%" alt="login-img"  />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
