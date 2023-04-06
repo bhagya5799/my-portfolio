@@ -160,6 +160,19 @@ const Projects = () => {
                             </Button>{' '}
                         </div>
                     </div>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1680757469/Screenshot_48_hpcpf3.png" height="100%" width="100%" alt="login-img" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/Incometax-calculation"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://spiffy-rabanadas-24a18c.netlify.app/"><i> Tax Calculation <FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -168,3 +181,4 @@ const Projects = () => {
     )
 }
 export default Projects
+
