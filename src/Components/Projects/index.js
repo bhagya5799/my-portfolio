@@ -156,7 +156,7 @@ const Projects = () => {
                                 <a href="https://github.com/bhagya5799/finlock-frontend--assignment"><i> github<AiFillGithub /></i></a>
                             </Button>{' '}
                             <Button variant="dark">
-                                <a href="hhttps://hilarious-khapse-bbd1de.netlify.app/login"><i> signup Form<FaArrowCircleRight /></i></a>
+                                <a href="https://hilarious-khapse-bbd1de.netlify.app/login"><i> signup Form<FaArrowCircleRight /></i></a>
                             </Button>{' '}
                         </div>
                     </div>
