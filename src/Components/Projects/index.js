@@ -11,37 +11,77 @@ const Projects = () => {
     return (
         <div className='projects-container'>
             <Header />
-            
+
             <div className='project-card'>
-                
                 <h3>My projects <i><FaArrowCircleDown /></i></h3>
                 <div className='d-flex flex-wrap justify-content-between'>
-                <div className='card'>
-                    <div className='Details'>
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" height="100%" width="100%"  alt="banner" />
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://www.themoviedb.org/t/p/original/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg" height="100%" width="100%" alt="banner" />
+                        </div>
+
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/nimap-TMDB" alt="image"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://sparkling-starlight-542158.netlify.app/"><i>TMDB site<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
                     </div>
-                    <div className='button-cart'>
-                        <Button variant="dark">
-                            <a href="https://github.com/bhagya5799/food-resturant-project" alt="image"><i> github<AiFillGithub /></i></a>
-                        </Button>{' '}
-                        <Button variant="dark">
-                            <a href="https://chimerical-alfajores-d2e4b9.netlify.app/"><i>FoodMuch site<FaArrowCircleRight /></i></a>
-                        </Button>{' '}
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1680757469/Screenshot_48_hpcpf3.png" height="100%" width="100%" alt="login-img" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/Incometax-calculation"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://spiffy-rabanadas-24a18c.netlify.app/"><i> Tax Calculation <FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
                     </div>
-                </div>
-                <div className='card'>
-                    <div className='Details'>
-                            <img src="https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b" height="100%" width="100%"  alt="gitImage"/>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://i.ytimg.com/vi/M3m0DOLsr_k/maxresdefault.jpg" height="100%" width="100%" alt="todo" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/HealthyCarew-website"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://friendly-daffodil-cfe1fc.netlify.app/"><i>Senior Help App<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
                     </div>
-                    <div className='button-cart'>
-                        <Button variant="dark">
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" height="100%" width="100%" alt="banner" />
+                        </div>
+
+                        <div className='button-cart'>
+                            <Button variant="dark">
+                                <a href="https://github.com/bhagya5799/food-resturant-project" alt="image"><i> github<AiFillGithub /></i></a>
+                            </Button>{' '}
+                            <Button variant="dark">
+                                <a href="https://chimerical-alfajores-d2e4b9.netlify.app/"><i>FoodMuch site<FaArrowCircleRight /></i></a>
+                            </Button>{' '}
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='Details'>
+                            <img src="https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b" height="100%" width="100%" alt="gitImage" />
+                        </div>
+                        <div className='button-cart'>
+                            <Button variant="dark">
                                 <a href="hhttps://github.com/bhagya5799/assinment-nexttrends-cart"><i> github<AiFillGithub /></i></a>
-                        </Button>{' '}
-                        <Button variant="dark">
+                            </Button>{' '}
+                            <Button variant="dark">
                                 <a href="https://ecommerceweb230.ccbp.tech/"><i>E-commerce site<FaArrowCircleRight /></i></a>
-                        </Button>{' '}
+                            </Button>{' '}
+                        </div>
                     </div>
-                </div>
                     <div className='card'>
                         <div className='Details'>
                             <img src="https://www.oflox.com/blog/wp-content/uploads/2020/09/WhatsApp-Chat-Design-Template.png" height="100%" width="100%" alt="chatImage" />
@@ -57,7 +97,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qdgmb80lrLYFaldRbLeSJfFAr8ONGoLMJsnEFju993Ojd7hDG3e8VZn6BTplrGhCU28&usqp=CAU" height="100%" width="100%"  alt="covid"/>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qdgmb80lrLYFaldRbLeSJfFAr8ONGoLMJsnEFju993Ojd7hDG3e8VZn6BTplrGhCU28&usqp=CAU" height="100%" width="100%" alt="covid" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -82,19 +122,7 @@ const Projects = () => {
                             </Button>{' '}
                         </div>
                     </div>
-                    <div className='card'>
-                        <div className='Details'>
-                            <img src="https://1.bp.blogspot.com/-i78iKr_P9Pk/X9ohjXyc5eI/AAAAAAAAA_4/8UauxZaOgUshGK7MXwW1gZqts7Zrf_AewCLcBGAsYHQ/s1280/Todo%2BList%2BApp%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp" height="100%" width="100%" alt="todo" />
-                        </div>
-                        <div className='button-cart'>
-                            <Button variant="dark">
-                                <a href="https://github.com/bhagya5799/covid-dashboard"><i> github<AiFillGithub /></i></a>
-                            </Button>{' '}
-                            <Button variant="dark">
-                                <a href="https://bhagyatodo.ccbp.tech/"><i>Todo Application site<FaArrowCircleRight /></i></a>
-                            </Button>{' '}
-                        </div>
-                    </div>
+
                     <div className='card'>
                         <div className='Details'>
                             <img src="https://play-lh.googleusercontent.com/B_wM_AK9epBhYhAJNnXhsGsZVLnsa_1AD_r_4QWaqH7Nt22TRe7RQGGw7MVily2vzA" height="100%" width="100%" alt="jobby" />
@@ -149,7 +177,7 @@ const Projects = () => {
                     </div>
                     <div className='card'>
                         <div className='Details'>
-                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678943418/Screenshot_45_wmbutq.png" height="100%" width="100%" alt="login-img"  />
+                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1678943418/Screenshot_45_wmbutq.png" height="100%" width="100%" alt="login-img" />
                         </div>
                         <div className='button-cart'>
                             <Button variant="dark">
@@ -160,19 +188,7 @@ const Projects = () => {
                             </Button>{' '}
                         </div>
                     </div>
-                    <div className='card'>
-                        <div className='Details'>
-                            <img src="https://res.cloudinary.com/bhagya/image/upload/v1680757469/Screenshot_48_hpcpf3.png" height="100%" width="100%" alt="login-img" />
-                        </div>
-                        <div className='button-cart'>
-                            <Button variant="dark">
-                                <a href="https://github.com/bhagya5799/Incometax-calculation"><i> github<AiFillGithub /></i></a>
-                            </Button>{' '}
-                            <Button variant="dark">
-                                <a href="https://spiffy-rabanadas-24a18c.netlify.app/"><i> Tax Calculation <FaArrowCircleRight /></i></a>
-                            </Button>{' '}
-                        </div>
-                    </div>
+                
                 </div>
 
             </div>
